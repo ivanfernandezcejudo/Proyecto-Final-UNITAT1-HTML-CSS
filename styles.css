@@ -24,3 +24,14 @@ body {
     overflow: hidden;
 }
 
+/*Imagen del coche mover de fondo*/
+.hero-car {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 45%; /*ajusta según lo grande que la quieras*/
+    max-width: 700px;
+    opacity: 0.9; /* da sensación de integración con el fondo*/
+    z-index: 1;
+    pointer-events: none; /* evita que bloquee clics*/
+}
